@@ -36,10 +36,8 @@ export default function Weather() {
               alt="Mostly Cloudy"
               className="float-left"
             />
-            <div className="float-left">
-              <span className="temperature">6</span>
-              <span className="unit">°C</span>
-            </div>
+            <span className="temperature">6</span>
+            <span className="unit">°C</span>
           </div>
         </div>
         <div className="col-6">
