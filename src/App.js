@@ -8,12 +8,13 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          This project is created by Hannah Cutter
+          This project was coded by Hannah Cutter{" "}
           <a
             href="https://github.com/hcutter/weather-react-final"
             target="_blank"
-          ></a>
-          open sourced on GitHub
+          >
+            open sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>
