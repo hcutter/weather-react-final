@@ -15,7 +15,6 @@ export default function Weather(props) {
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
     });
-    setReady(true);
   }
 
   if (weatherData.ready) {
