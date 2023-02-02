@@ -8,12 +8,21 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Charleston" />
         <footer>
-          This project was coded by Hannah Cutter{" "}
+          This project was coded by{" "}
+          <a
+            href="https://capable-cannoli-c4b34d.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hannah Cutter
+          </a>{" "}
+          open-sourced on{" "}
           <a
             href="https://github.com/hcutter/weather-react-final"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            open sourced on GitHub
+            GitHub
           </a>
         </footer>
       </div>
